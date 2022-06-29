@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
@@ -92,7 +93,7 @@
     };
     //YOUR TURN: add your Mapbox token
     
-    mapboxgl.accessToken = 'pk.eyJ1Ijoia2F0ZWNocmlzdHkiLCJhIjoiY2w0enJlNHVmMHFocTNlcDlqeDY4YnRjNCJ9.r9t0X0xcUdtKrF84CRxYug; //Mapbox token 
+    mapboxgl.accessToken = 'pk.eyJ1Ijoia2F0ZWNocmlzdHkiLCJhIjoiY2w0enJlNHVmMHFocTNlcDlqeDY4YnRjNCJ9.r9t0X0xcUdtKrF84CRxYug'; //Mapbox token 
     var map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/mapbox/streets-v11', // YOUR TURN: choose a style: https://docs.mapbox.com/api/maps/#styles
